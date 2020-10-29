@@ -20,12 +20,12 @@ class Upload extends BaseController
 	public function add() 
 	{
 		// todo
-		require_once(APPPATH . "third_party/tinify/lib/Tinify/Exception.php");
-		require_once(APPPATH . "third_party/tinify/lib/Tinify/ResultMeta.php");
-		require_once(APPPATH . "third_party/tinify/lib/Tinify/Result.php");
-		require_once(APPPATH . "third_party/tinify/lib/Tinify/Source.php");
-		require_once(APPPATH . "third_party/tinify/lib/Tinify/Client.php");
-		require_once(APPPATH . "third_party/tinify/lib/Tinify.php");
+		require_once(APPPATH . "ThirdParty/tinify/lib/Tinify/Exception.php");
+		require_once(APPPATH . "ThirdParty/tinify/lib/Tinify/ResultMeta.php");
+		require_once(APPPATH . "ThirdParty/tinify/lib/Tinify/Result.php");
+		require_once(APPPATH . "ThirdParty/tinify/lib/Tinify/Source.php");
+		require_once(APPPATH . "ThirdParty/tinify/lib/Tinify/Client.php");
+		require_once(APPPATH . "ThirdParty/tinify/lib/Tinify.php");
 
 		$api_key = "YOURKEYHERE";
 
